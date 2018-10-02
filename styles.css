@@ -1,11 +1,26 @@
 body {
-    background: rgb(204,204,204);
+    background: rgb(204, 204, 204);
 }
+
 main {
     background: white;
     display: block;
     margin: 0 auto;
     width: 21cm;
     height: 29.7cm;
-    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+h1, h2, h3 {
+    font-family: 'Inconsolata', monospace;
+    padding: 1rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+header {
+    display: flex;
+    background: #f2f2f2;
 }

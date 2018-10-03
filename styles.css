@@ -1,25 +1,27 @@
 html {
-    background: rgb(204, 204, 204);
-    margin-top: 15px;
+    /*background: rgb(204, 204, 204);*/
 }
 
 body {
     display: block;
     margin: 0 auto;
     width: 21cm;
-    height: 29.7cm;
-    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-    background: #f5f5f5;
+    max-height: 29.7cm;
+    /*box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);*/
+    background: white;
+    font-family: 'Lato', monospace;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', monospace;
+    font-weight: 700;
 }
 
 h1, h2, h3 {
     letter-spacing: 0.2rem;
+    font-weight: 900;
 }
 
 h3, h4, h5 {
@@ -50,49 +52,50 @@ h5 {
 }
 
 section {
-    padding: 1rem 0;
+    padding-bottom: 0.5rem;
 }
 
 main {
     display: flex;
     padding: 2rem;
 }
+
 .sectionItem {
     display: flex;
-
 }
+
 header {
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
-    /*background: #ebebeb;*/
     height: 6cm;
 }
 
 footer {
     background: #fff;
     font-size: 0.7rem;
-    margin: 3rem;
+    margin: 5rem 6rem 0;
 }
 
 p {
     margin: 0.5rem 0 0.5rem 0;
 }
-ul{
-    margin: 0;
-}
-#left, #right{
+
+#left, #right {
     flex-grow: 1;
     flex-basis: 50%;
 }
-#left{
-    margin-right: 1rem;
+
+#left {
+    margin-right: 2rem;
 }
+
 #right {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
+
 .bl {
-    border-left: black 0.3rem solid;
+    border-left: black 0.2rem solid;
     padding-left: 0.7rem;
 }
 
@@ -100,4 +103,22 @@ ul{
     text-align: right;
     padding-right: 0.7rem;
     text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+li:before {
+    content: url("data:image/svg+xml,%3Csvg aria-hidden='true' height='1rem' width='1rem' data-prefix='fas' data-icon='angle-right' class='svg-inline--fa fa-angle-right fa-w-8' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512'%3E%3Cpath fill='currentColor' d='M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z'%3E%3C/path%3E%3C/svg%3E");
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    line-height: 1rem;
 }

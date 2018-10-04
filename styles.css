@@ -1,13 +1,12 @@
 html {
-    /*background: rgb(204, 204, 204);*/
+    overflow:hidden;
 }
 
 body {
     display: block;
     margin: 0 auto;
     width: 21cm;
-    max-height: 29.7cm;
-    /*box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);*/
+    height: 29.7cm;
     background: white;
     font-family: 'Lato', monospace;
     font-weight: 300;
@@ -42,6 +41,9 @@ h2 {
     padding-bottom: 1cm;
 }
 
+h3 {
+    margin: 1rem 0;
+}
 h4 {
     font-size: 1em;
 }
@@ -74,7 +76,7 @@ header {
 footer {
     background: #fff;
     font-size: 0.7rem;
-    margin: 5rem 6rem 0;
+    margin: 11rem 6rem 0;
 }
 
 p {
@@ -108,17 +110,31 @@ p {
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0.3rem;
+}
+
+abbr[title] {
+    text-decoration: none;
 }
 
 li {
-    padding-left: 1em;
-    text-indent: -1em;
+    padding-left: 0.7em;
+    padding-bottom: 0.3rem;
 }
-li:before {
-    content: url("data:image/svg+xml,%3Csvg aria-hidden='true' height='1rem' width='1rem' data-prefix='fas' data-icon='angle-right' class='svg-inline--fa fa-angle-right fa-w-8' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512'%3E%3Cpath fill='currentColor' d='M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z'%3E%3C/path%3E%3C/svg%3E");
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-    line-height: 1rem;
+
+li svg{
+    margin-right: 0.3rem;
+}
+
+#skills li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li:not(:first-child):before {
+    content: "/ ";
+    padding: 0 0.3rem;
+    font-weight: 900;
+    color: #616161;
 }

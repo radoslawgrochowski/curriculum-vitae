@@ -138,3 +138,7 @@ li svg{
     font-weight: 900;
     color: #616161;
 }
+
+br{
+    line-height: 1.5rem;
+}

@@ -1,5 +1,5 @@
 html {
-    overflow:hidden;
+    overflow: hidden;
 }
 
 body {
@@ -44,6 +44,7 @@ h2 {
 h3 {
     margin: 1rem 0;
 }
+
 h4 {
     font-size: 1em;
 }
@@ -122,11 +123,11 @@ li {
     padding-bottom: 0.3rem;
 }
 
-li svg{
+li svg {
     margin-right: 0.3rem;
 }
 
-#skills li{
+#skills li {
     display: inline;
     padding: 0;
     margin: 0;
@@ -139,6 +140,10 @@ li svg{
     color: #616161;
 }
 
-br{
+br {
     line-height: 1.5rem;
+}
+
+.icon-small svg{
+    width: .4em !important;
 }

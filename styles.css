@@ -42,7 +42,9 @@ h2 {
 }
 
 h3 {
-    margin: 1rem 0;
+    background-color: black;
+    color: white;
+    padding: 0.3rem 0.5rem;
 }
 
 h4 {
@@ -65,11 +67,12 @@ section {
 
 main {
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .sectionItem {
     display: flex;
+    flex-direction: row;
 }
 
 header {
@@ -79,10 +82,23 @@ header {
     height: 6cm;
 }
 
+.social  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.social  li {
+    flex: 0 0 33%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     background: #fff;
     font-size: 0.7rem;
-    margin: 5rem 6rem 0;
+    margin: 0 6rem;
 }
 
 p {
@@ -131,11 +147,12 @@ li {
 li svg {
     margin-right: 0.3rem;
 }
+
 #skills, p {
     padding-left: 0.5rem;
 }
 
-#skills ul{
+#skills ul {
     padding-left: 0.2rem;
 }
 
@@ -154,6 +171,16 @@ li svg {
 
 br {
     line-height: 1.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.svg-inline--fa {
+    width: 16px !important;
+    height: 16px !important;
 }
 
 .icon-small svg {

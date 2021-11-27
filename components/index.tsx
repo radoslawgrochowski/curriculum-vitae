@@ -285,6 +285,7 @@ const CurriculumVitae = () => (
                     Windows
                   </Skill>
                   <Skill href="https://en.wikipedia.org/wiki/Unix">Unix</Skill>
+                  <Skill href="https://www.docker.com/">Docker</Skill>
                   <Skill href="https://www.agilealliance.org/glossary/tdd">
                     TDD
                   </Skill>

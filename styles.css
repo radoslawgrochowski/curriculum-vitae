@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-section {
+    @apply uppercase bg-stone-900 text-white font-semibold text-lg px-2 tracking-widest rounded-sm;
+  }
+  .chip {
+    @apply px-1 py-1 border border-stone-900 rounded-sm text-xs leading-3 hover:bg-gray-100 cursor-pointer;
+  }
+}

@@ -1,3 +1,3 @@
 # @radoslawgrochowski/curriculum-vitae
 
-html resume using react components with emotion
+my resume built using html and tailwindcss

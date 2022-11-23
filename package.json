@@ -2,13 +2,11 @@
   "name": "@radoslawgrochowski/curriculum-vitae",
   "version": "1.0.0",
   "description": "my personal curriculum vitae",
-  "main": "old.html",
   "scripts": {
-    "nodemon": "nodemon --exec \"npm run build\" --ext \"ts,tsx,json\"",
-    "watch": "run-p nodemon serve",
-    "build": "ts-node ./build.tsx",
-    "serve": "serve ./output",
-    "prettier": "prettier . --write"
+    "prettier": "prettier . --write",
+    "serve": "serve .",
+    "start": "run-p serve tailwind",
+    "tailwind": "npx tailwindcss -i ./styles.css -o styles.dist.css --watch"
   },
   "repository": {
     "type": "git",
@@ -22,35 +20,12 @@
   ],
   "author": "radoslawgrochowski",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/radoslawgrochowski/curriculum-vitae/issues"
-  },
-  "homepage": "https://github.com/radoslawgrochowski/curriculum-vitae#readme",
-  "dependencies": {
-    "@emotion/react": "11.5.0",
-    "@emotion/styled": "11.3.0",
-    "@styled-system/css": "5.1.5",
-    "modern-normalize": "1.1.0",
-    "nodemon": "2.0.15",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "4.3.1",
-    "serve": "13.0.2",
-    "styled-normalize": "8.0.7",
-    "styled-system": "5.1.5"
-  },
   "devDependencies": {
-    "@swc/cli": "0.1.51",
-    "@swc/core": "1.2.111",
-    "@swc/helpers": "0.2.14",
-    "@types/react": "17.0.34",
-    "@types/react-dom": "17.0.11",
-    "@types/styled-system": "5.1.13",
-    "@types/styled-system__css": "5.0.16",
+    "@tailwindcss/typography": "0.5.7",
+    "nodemon": "2.0.15",
     "npm-run-all": "4.1.5",
     "prettier": "2.4.1",
-    "regenerator-runtime": "0.13.9",
-    "ts-node": "10.4.0",
-    "typescript": "4.4.4"
+    "serve": "13.0.2",
+    "tailwindcss": "3.1.8"
   }
 }

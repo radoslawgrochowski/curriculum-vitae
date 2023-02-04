@@ -12,7 +12,8 @@ module.exports = {
       sign: '"› "',
     },
     fontFamily: {
-      body: "'Rubik', sans-serif;",
+      body: ['Encode Sans', 'sans-serif'],
+      heading: ['Jost', 'sans-serif'],
     },
   },
 };

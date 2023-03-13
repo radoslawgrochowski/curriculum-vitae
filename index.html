@@ -15,460 +15,445 @@
     />
     <link href="./styles.dist.css" rel="stylesheet" />
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <style>
+      @page {
+        size: A4;
+        margin: 10mm;
+      }
+    </style>
   </head>
   <body
     class="
       leading-5
       font-body
       bg-stone-700
-      w-full
-      h-full
-      p-10
-      print:p-0 print:bg-inherit
+      print:bg-inherit
       flex
+      print:block
       justify-center
     "
   >
-    <div
-      class="
-        bg-white
-        rounded-md
-        p-10
-        print:p-0
-        max-w-5xl
-        space-y-1
-        flex flex-col
-        print:rounded-none
-      "
-    >
-      <div class="flex flex-col items-center leading-none">
-        <div class="text-3xl uppercase font-heading">Radosław Grochowski</div>
-      </div>
-      <div class="flex flex-wrap">
-        <div class="flex flex-wrap w-full text-sm mb-3">
-          <div class="w-1/3 flex justify-center items-center">
-            <a href="mailto:rg@fard.pl" class="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-5 h-5 mr-1 self-center"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                />
-              </svg>
-              rg@fard.pl
-            </a>
-          </div>
-          <div class="w-1/3 flex justify-center">
-            <a href="tel:+48605400XXX" class="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-4 h-4 mr-1 self-center"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                />
-              </svg>
-              (+48) 605 400 XXX
-            </a>
-          </div>
-          <div class="w-1/3 flex justify-center">
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Warsaw,%20PL"
-              class="flex"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-4 h-4 mr-0.5 self-center"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                />
-              </svg>
-              Warsaw, PL
-            </a>
-          </div>
-          <div class="w-1/3 flex justify-center">
-            <a href="https://github.com/radoslawgrochowski" class="flex">
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 16 16"
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-4 h-4 mr-1 self-center"
-              >
-                <path
-                  d="M8 0.198c-4.418 0-8 3.582-8 8 0 3.535 2.292 6.533 5.471 7.591 0.4 0.074 0.547-0.174 0.547-0.385 0-0.191-0.008-0.821-0.011-1.489-2.226 0.484-2.695-0.944-2.695-0.944-0.364-0.925-0.888-1.171-0.888-1.171-0.726-0.497 0.055-0.486 0.055-0.486 0.803 0.056 1.226 0.824 1.226 0.824 0.714 1.223 1.872 0.869 2.328 0.665 0.072-0.517 0.279-0.87 0.508-1.070-1.777-0.202-3.645-0.888-3.645-3.954 0-0.873 0.313-1.587 0.824-2.147-0.083-0.202-0.357-1.015 0.077-2.117 0 0 0.672-0.215 2.201 0.82 0.638-0.177 1.322-0.266 2.002-0.269 0.68 0.003 1.365 0.092 2.004 0.269 1.527-1.035 2.198-0.82 2.198-0.82 0.435 1.102 0.162 1.916 0.079 2.117 0.513 0.56 0.823 1.274 0.823 2.147 0 3.073-1.872 3.749-3.653 3.947 0.287 0.248 0.543 0.735 0.543 1.481 0 1.070-0.009 1.932-0.009 2.195 0 0.213 0.144 0.462 0.55 0.384 3.177-1.059 5.466-4.057 5.466-7.59 0-4.418-3.582-8-8-8z"
-                ></path>
-              </svg>
-              radoslawgrochowski
-            </a>
-          </div>
-          <div class="w-1/3 flex justify-center">
-            <a
-              href="https://www.linkedin.com/in/radoslawgrochowski/"
-              class="flex"
-            >
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 448 512"
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-4 h-4 mr-1 self-center"
-              >
-                <path
-                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                ></path>
-              </svg>
-              /in/radoslawgrochowski
-            </a>
-          </div>
-          <div class="w-1/3 flex justify-center">
-            <a href="https://stackoverflow.com/users/10995369/r-g" class="flex">
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 384 512"
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-4 h-4 mr-1 self-center"
-              >
-                <path
-                  d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"
-                ></path>
-              </svg>
-              /u/10995369
-            </a>
+    <div class="p-[10mm] print:p-0 bg-white rounded-md">
+      <div class="w-[210mm] h-[297mm] space-y-1 flex flex-col">
+        <div class="flex justify-center">
+          <div class="text-3xl uppercase font-heading mb-2">
+            Radosław Grochowski
           </div>
         </div>
-        <div class="w-2/3 pr-3">
-          <div class="header-section">
-            <div class="font-heading">Work experience</div>
-          </div>
-          <div class="space-y-4">
-            <div>
-              <div class="flex space-x-2 items-center pb-1">
-                <img
-                  class="w-12 h-12 rounded-md bg-gray-200 scale-100"
-                  src="./assets/wp.png"
-                />
-                <div class="w-full text-md">
-                  <div class="flex w-full">
-                    <div class="flex-1">Frontend Developer / Tech Lead</div>
-                    <div>07.2019 - present</div>
-                  </div>
-                  <div class="flex text-gray-700 -mx-0.5 flex-wrap">
-                    <div class="flex flex-1 items-center w-full mx-0.5">
-                      Wirtualna Polska Media
-                    </div>
-                    <div class="flex items-center mx-0.5">
-                      Warsaw, PL / Remote
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="text-sm">
-                Building <span class="font-medium">1login od WP</span> web
-                application - sign-on and&nbsp;user profile provider
-                for&nbsp;WP&nbsp;Holding services. Maintenance
-                and&nbsp;development of&nbsp;<span class="font-medium"
-                  >WP Poczta</span
+        <div class="flex flex-wrap">
+          <div class="flex flex-wrap w-full text-sm mb-3">
+            <div class="w-1/3 flex justify-center items-center">
+              <a href="mailto:rg@fard.pl" class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-5 h-5 mr-1 self-center"
                 >
-                and&nbsp;<span class="font-medium">Poczta o2</span>
-                email web applications.
-                <ul class="list-sign pl-4 space-y-0.5">
-                  <li>
-                    implementing the&nbsp;features and&nbsp;user interfaces
-                  </li>
-                  <li>
-                    researching, refining, prototyping and&nbsp;providing
-                    estimates for&nbsp;future&nbsp;solutions
-                  </li>
-                  <li>
-                    transitioning technology stack into React with TypeScript
-                    and&nbsp;CSS-in-JS
-                  </li>
-                  <li>
-                    collaborating with UI/UX Designers, Testers, Product
-                    Managers and&nbsp;Software Engineers to deliver compelling
-                    user-facing products
-                  </li>
-                  <li>
-                    adjusting various development tools for the&nbsp;productive
-                    workflow of&nbsp;the&nbsp;team (linters, bots, dashboards,
-                    scripts)
-                  </li>
-                  <li>
-                    propagating test first development by creating and
-                    maintaining system tests at various layers
-                    of&nbsp;integration
-                  </li>
-                  <li>
-                    identifying and&nbsp;resolving performance, accessibility
-                    and scalability issues basing on diverse reporting tools
-                    like lighthouse, sentry or kibana
-                  </li>
-                  <li>
-                    maintaining projects' CI/CD, ensuring quality
-                    of&nbsp;product at every step of&nbsp;software development
-                  </li>
-                  <li>supporting the&nbsp;QA team on test automation topics</li>
-                  <li>writing and&nbsp;maintaining technical documentation</li>
-                  <li>performing technical interviews with job candidates</li>
-                  <li>
-                    maintenance and&nbsp;refactor of&nbsp;existing codebase,
-                    ensuring up to date best practices
-                  </li>
-                </ul>
-              </div>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                  />
+                </svg>
+                rg@fard.pl
+              </a>
             </div>
-            <div>
-              <div class="flex space-x-2 items-center pb-1">
-                <img
-                  class="w-12 h-12 rounded-md bg-gray-200 scale-100"
-                  src="./assets/ing.png"
-                />
-                <div class="w-full text-md">
-                  <div class="flex w-full">
-                    <div class="flex-1">Frontend Developer</div>
-                    <div>02.2019 - 06.2019</div>
-                  </div>
-                  <div class="flex text-gray-700 -mx-0.5 flex-wrap">
-                    <div class="flex flex-1 items-center mx-0.5">
-                      ING Bank Śląski
+            <div class="w-1/3 flex justify-center">
+              <a href="tel:+48605400XXX" class="flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-4 h-4 mr-1 self-center"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+                (+48) 605 400 XXX
+              </a>
+            </div>
+            <div class="w-1/3 flex justify-center">
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Warsaw,%20PL"
+                class="flex"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-4 h-4 mr-0.5 self-center"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                  />
+                </svg>
+                Warsaw, PL
+              </a>
+            </div>
+            <div class="w-1/3 flex justify-center">
+              <a href="https://github.com/radoslawgrochowski" class="flex">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 mr-1 self-center"
+                >
+                  <path
+                    d="M8 0.198c-4.418 0-8 3.582-8 8 0 3.535 2.292 6.533 5.471 7.591 0.4 0.074 0.547-0.174 0.547-0.385 0-0.191-0.008-0.821-0.011-1.489-2.226 0.484-2.695-0.944-2.695-0.944-0.364-0.925-0.888-1.171-0.888-1.171-0.726-0.497 0.055-0.486 0.055-0.486 0.803 0.056 1.226 0.824 1.226 0.824 0.714 1.223 1.872 0.869 2.328 0.665 0.072-0.517 0.279-0.87 0.508-1.070-1.777-0.202-3.645-0.888-3.645-3.954 0-0.873 0.313-1.587 0.824-2.147-0.083-0.202-0.357-1.015 0.077-2.117 0 0 0.672-0.215 2.201 0.82 0.638-0.177 1.322-0.266 2.002-0.269 0.68 0.003 1.365 0.092 2.004 0.269 1.527-1.035 2.198-0.82 2.198-0.82 0.435 1.102 0.162 1.916 0.079 2.117 0.513 0.56 0.823 1.274 0.823 2.147 0 3.073-1.872 3.749-3.653 3.947 0.287 0.248 0.543 0.735 0.543 1.481 0 1.070-0.009 1.932-0.009 2.195 0 0.213 0.144 0.462 0.55 0.384 3.177-1.059 5.466-4.057 5.466-7.59 0-4.418-3.582-8-8-8z"
+                  ></path>
+                </svg>
+                radoslawgrochowski
+              </a>
+            </div>
+            <div class="w-1/3 flex justify-center">
+              <a
+                href="https://www.linkedin.com/in/radoslawgrochowski/"
+                class="flex"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 mr-1 self-center"
+                >
+                  <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                  ></path>
+                </svg>
+                /in/radoslawgrochowski
+              </a>
+            </div>
+            <div class="w-1/3 flex justify-center">
+              <a
+                href="https://stackoverflow.com/users/10995369/r-g"
+                class="flex"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 mr-1 self-center"
+                >
+                  <path
+                    d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"
+                  ></path>
+                </svg>
+                /u/10995369
+              </a>
+            </div>
+          </div>
+          <div class="w-3/5 pr-3">
+            <div class="header-section">
+              <div class="font-heading">experience</div>
+            </div>
+            <div class="space-y-4">
+              <div>
+                <div class="flex space-x-2 items-center pb-1">
+                  <img
+                    class="w-12 h-12 rounded-md bg-gray-200 scale-100"
+                    src="./assets/wp.png"
+                  />
+                  <div class="w-full text-md">
+                    <div class="flex w-full">
+                      <div class="flex-1">Frontend Developer / Tech Lead</div>
+                      <div>07.2019 - present</div>
                     </div>
-                    <div class="flex items-center mx-0.5">Warsaw, PL</div>
-                  </div>
-                </div>
-              </div>
-              <div class="text-sm">
-                Expanding <span class="font-medium">ING Business</span> web
-                application as a sign-on provider to external accounting
-                application.
-              </div>
-            </div>
-            <div>
-              <div class="flex space-x-2 items-center pb-1">
-                <img
-                  class="w-12 h-12 rounded-md bg-gray-200 scale-100"
-                  src="./assets/idea.png"
-                />
-                <div class="w-full text-md">
-                  <div class="flex w-full">
-                    <div class="flex-1">
-                      Junior Developer / Frontend Developer
+                    <div class="flex text-gray-700 -mx-0.5 flex-wrap">
+                      <div class="flex flex-1 items-center w-full mx-0.5">
+                        Wirtualna Polska Media
+                      </div>
+                      <div class="flex items-center mx-0.5">
+                        Warsaw, PL / Remote
+                      </div>
                     </div>
-                    <div>06.2017 - 02.2019</div>
-                  </div>
-                  <div class="flex text-gray-700 -mx-0.5">
-                    <div class="flex flex-1 items-center mx-0.5">Idea Bank</div>
-                    <div class="flex items-center mx-0.5">Warsaw, PL</div>
                   </div>
                 </div>
-              </div>
-              <div class="text-sm">
-                Work on sales and&nbsp;CRM internal web application for
-                consultants and&nbsp;managers:
-                <ul class="list-sign pl-4 space-y-0.5">
-                  <li>
-                    Expanding front-end technology stack (Backbone.js
-                    and&nbsp;Less global styles) with React, Redux, Sass
-                    and&nbsp;FlowType.
-                  </li>
-                  <li>
-                    Creating and&nbsp;maintaining continuous deployment projects
-                    using Atlassian Bamboo.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-1/3 pl-2 flex flex-col flex-1">
-          <div class="header-section">
-            <div class="font-heading">Skills</div>
-          </div>
-          <div class="pb-4 text-sm flex flex-col">
-            <div class="text-xs mb-1.5">proficient with:</div>
-            <!-- <div class="uppercase text-sm">frontend:</div> -->
-            <ul class="flex flex-wrap -m-0.5 text-gray-800 mb-2">
-              <li class="m-0.5 chip">
-                <a href="https://tc39.es/"> JavaScript (esnext) </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.typescriptlang.org/">TypeScript</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://reactjs.org/">React</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://nextjs.org/">Next.js</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://redux.js.org/">Redux</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://nodejs.org/en/">Node.js</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.cypress.io/">cypress</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://jestjs.io/">jest</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.w3.org/Style/CSS"> css </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://en.wikipedia.org/wiki/CSS-in-JS">
-                  css in js
-                </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://styled-system.com/"> styled-system </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://chakra-ui.com/"> Chakra UI </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://tailwindcss.com/"> Tailwind CSS </a>
-              </li>
-            </ul>
-            <!-- <div class="uppercase">WORKFLOW:</div> -->
-            <ul class="flex flex-wrap -m-0.5 text-gray-800 text-sm">
-              <li class="m-0.5 chip">
-                <a><a href="https://git-scm.com/">git</a></a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://docs.gitlab.com/ee/ci/"> gitlab-ci </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://agilemanifesto.org/"> Agile </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://scrumguides.org/index.html"> Scrum </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.atlassian.com/software/jira"> Jira </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://en.wikipedia.org/wiki/Unix"> GNU/Linux </a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.docker.com/">Docker</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.vim.org/">vim</a>
-              </li>
-              <li class="m-0.5 chip">
-                <a href="https://www.agilealliance.org/glossary/tdd">TDD</a>
-              </li>
-              <li class="m-0.5 chip">polish (native)</li>
-              <li class="m-0.5 chip">english (b2)</li>
-            </ul>
-          </div>
-          <div class="header-section">
-            <div class="font-heading">Education</div>
-          </div>
-          <div class="space-y-4">
-            <div class="text-sm">
-              <div class="flex text-md">
-                <div class="flex-1 uppercase font-semibold">Master</div>
-                <div>03.2018 - 02.2020</div>
-              </div>
-              <div class="uppercase tracking-tight">
-                Cybersecurity and&nbsp;cryptology
-              </div>
-              <div class="text-gray-700">
-                Military University of&nbsp;Technology
-              </div>
-              <div class="flex space-x-1 text-sm pb-1 text-gray-700">
-                <div class="text-gray-700 flex items-center">
-                  03.2018 - 02.2020
+                <div class="text-sm">
+                  Building <span class="font-medium">1login od WP</span> web
+                  application - sign-on and&nbsp;user profile provider
+                  for&nbsp;WP&nbsp;Holding services. Maintenance
+                  and&nbsp;development of&nbsp;<span class="font-medium"
+                    >WP Poczta</span
+                  >
+                  and&nbsp;<span class="font-medium">Poczta o2</span>
+                  email web applications.
+                  <ul class="list-sign pl-4 space-y-0.5">
+                    <li>
+                      implementing the&nbsp;features and&nbsp;user interfaces
+                    </li>
+                    <li>
+                      researching, refining, prototyping and&nbsp;providing
+                      estimates for&nbsp;future&nbsp;solutions
+                    </li>
+                    <li>
+                      transitioning technology stack into React with TypeScript
+                      and&nbsp;CSS-in-JS
+                    </li>
+                    <li>
+                      collaborating with UI/UX Designers, Testers, Product
+                      Managers and&nbsp;Software Engineers to deliver compelling
+                      user-facing products
+                    </li>
+                    <li>
+                      adjusting various development tools for
+                      the&nbsp;productive workflow of&nbsp;the&nbsp;team
+                      (linters, bots, dashboards, scripts)
+                    </li>
+                    <li>
+                      propagating test first development by creating and
+                      maintaining system tests at various layers
+                      of&nbsp;integration
+                    </li>
+                    <li>
+                      identifying and&nbsp;resolving performance, accessibility
+                      and scalability issues basing on diverse reporting tools
+                      like lighthouse, sentry or kibana
+                    </li>
+                    <li>
+                      maintaining projects' CI/CD, ensuring quality
+                      of&nbsp;product at every step of&nbsp;software development
+                    </li>
+                    <li>
+                      supporting the&nbsp;QA team on test automation topics
+                    </li>
+                    <li>
+                      writing and&nbsp;maintaining technical documentation
+                    </li>
+                    <li>performing technical interviews with job candidates</li>
+                    <li>
+                      maintenance and&nbsp;refactor of&nbsp;existing codebase,
+                      ensuring up to date best practices
+                    </li>
+                  </ul>
                 </div>
-                ,
-                <div class="flex items-center">Warsaw, PL</div>
               </div>
               <div>
-                <div class="pb-1">
-                  Studies at Institute of&nbsp;Computer
-                  and&nbsp;Information&nbsp;Systems (ISI)
+                <div class="flex space-x-2 items-center pb-1">
+                  <img
+                    class="w-12 h-12 rounded-md bg-gray-200 scale-100"
+                    src="./assets/ing.png"
+                  />
+                  <div class="w-full text-md">
+                    <div class="flex w-full">
+                      <div class="flex-1">Frontend Developer</div>
+                      <div>02.2019 - 06.2019</div>
+                    </div>
+                    <div class="flex text-gray-700 -mx-0.5 flex-wrap">
+                      <div class="flex flex-1 items-center mx-0.5">
+                        ING Bank Śląski
+                      </div>
+                      <div class="flex items-center mx-0.5">Warsaw, PL</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="">
+                <div class="text-sm">
+                  Expanding <span class="font-medium">ING Business</span> web
+                  application as a sign-on provider to external accounting
+                  application.
+                </div>
+              </div>
+              <div>
+                <div class="flex space-x-2 items-center pb-1">
+                  <img
+                    class="w-12 h-12 rounded-md bg-gray-200 scale-100"
+                    src="./assets/idea.png"
+                  />
+                  <div class="w-full text-md">
+                    <div class="flex w-full">
+                      <div class="flex-1">
+                        Junior Developer / Frontend Developer
+                      </div>
+                      <div>06.2017 - 02.2019</div>
+                    </div>
+                    <div class="flex text-gray-700 -mx-0.5">
+                      <div class="flex flex-1 items-center mx-0.5">
+                        Idea Bank
+                      </div>
+                      <div class="flex items-center mx-0.5">Warsaw, PL</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-sm">
+                  Work on sales and&nbsp;CRM internal web application for
+                  consultants and&nbsp;managers.
+                  <ul class="list-sign pl-4 space-y-0.5">
+                    <li>
+                      Expanding front-end technology stack (Backbone.js
+                      and&nbsp;Less global styles) with React, Redux, Sass
+                      and&nbsp;FlowType.
+                    </li>
+                    <li>
+                      Creating and&nbsp;maintaining continuous deployment
+                      projects using Atlassian Bamboo.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-2/5 pl-2 flex flex-col flex-1">
+            <div class="header-section">
+              <div class="font-heading">Skills</div>
+            </div>
+            <div class="pb-8 text-sm flex flex-col">
+              <div class="text-xs mb-1.5">proficient with:</div>
+              <!-- <div class="uppercase text-sm">frontend:</div> -->
+              <ul class="flex flex-wrap -m-0.5 text-gray-800 mb-2">
+                <li class="m-0.5 chip">
+                  <a href="https://tc39.es/"> JavaScript (esnext) </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.typescriptlang.org/">TypeScript</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://reactjs.org/">React</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://nextjs.org/">Next.js</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://redux.js.org/">Redux</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://nodejs.org/en/">Node.js</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.cypress.io/">cypress</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://jestjs.io/">jest</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.w3.org/Style/CSS"> css </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://en.wikipedia.org/wiki/CSS-in-JS">
+                    css in js
+                  </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://styled-system.com/"> styled-system </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://chakra-ui.com/"> Chakra UI </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://tailwindcss.com/"> Tailwind CSS </a>
+                </li>
+              </ul>
+              <!-- <div class="uppercase">WORKFLOW:</div> -->
+              <ul class="flex flex-wrap -m-0.5 text-gray-800 text-sm">
+                <li class="m-0.5 chip">
+                  <a><a href="https://git-scm.com/">git</a></a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://docs.gitlab.com/ee/ci/"> gitlab-ci </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://agilemanifesto.org/"> Agile </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://scrumguides.org/index.html"> Scrum </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.atlassian.com/software/jira"> Jira </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://en.wikipedia.org/wiki/Unix"> GNU/Linux </a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.docker.com/">Docker</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.vim.org/">vim</a>
+                </li>
+                <li class="m-0.5 chip">
+                  <a href="https://www.agilealliance.org/glossary/tdd">TDD</a>
+                </li>
+                <li class="m-0.5 chip">polish (native)</li>
+                <li class="m-0.5 chip">english (b2)</li>
+              </ul>
+            </div>
+            <div class="header-section">
+              <div class="font-heading">Education</div>
+            </div>
+            <div class="space-y-4 text-md">
+              <div class="flex flex-col gap-1">
+                <div class="flex">
+                  <div class="flex-1 uppercase font-semibold">Master</div>
+                  <div>03.2018 - 02.2020</div>
+                </div>
+                <div class="uppercase">Cybersecurity and&nbsp;cryptology</div>
+                <div>Military University of&nbsp;Technology</div>
+                <div class="text-gray-700">
+                  Institute of&nbsp;Computer and&nbsp;Information&nbsp;Systems
+                  (ISI)
+                </div>
+                <div>
                   <span class="italic">Thesis:</span> Analysis of&nbsp;the
                   possibilities of&nbsp;using Blockchain technology to control
                   the processing of&nbsp;classified documents.
                 </div>
               </div>
-            </div>
-            <div class="flex flex-col text-sm">
-              <div class="flex text-md">
-                <div class="flex-1 uppercase font-semibold">
-                  BACHELOR
+              <div class="flex flex-col gap-1">
+                <div class="flex">
+                  <div class="flex-1 uppercase font-semibold">BACHELOR</div>
+                  <div class="flex items-center">09.2014 - 02.2018</div>
                 </div>
-                <div class="flex items-center">09.2014 - 02.2018</div>
-              </div>
-              <div class="uppercase">Cybersecurity and&nbsp;cryptology</div>
-              <div class="text-gray-700">
-                Military University of&nbsp;Technology
-              </div>
-              <div class="text-sm">
-                <div class="pb-1">
-                  Studies at Institute of&nbsp;Teleinformatics
-                  and&nbsp;Automation (ITA)
+                <div class="uppercase">Cybersecurity and&nbsp;cryptology</div>
+                <div>Military University of&nbsp;Technology</div>
+                <div class="text-gray-700">
+                  Institute of&nbsp;Teleinformatics and&nbsp;Automation (ITA)
                 </div>
-                <div class="">
+                <div>
                   <span class="italic">Thesis:</span> The&nbsp;project
                   of&nbsp;academic node to electronic identification.
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex flex-col flex-1 justify-end">
-            <div
-              class="
-                text-[0.625rem] text-justify
-                leading-none
-                max-w-xl
-                self-center
-                py-2
-              "
-            >
-              I hereby give consent for my personal data included in my
-              application to be processed for the&nbsp;purposes
-              of&nbsp;the&nbsp;recruitment process under the&nbsp;Regulation
-              (EU) 2016/679 of&nbsp;the&nbsp;European Parliament
-              and&nbsp;of&nbsp;the&nbsp;Council of&nbsp;27 April 2016 on
-              the&nbsp;protection of&nbsp;natural persons with regard to
-              the&nbsp;processing of&nbsp;personal data and&nbsp;on
-              the&nbsp;free movement of&nbsp;such data, and&nbsp;repealing
-              Directive 95/46/EC (General Data Protection Regulation).
-            </div>
+        </div>
+        <div class="flex flex-col flex-1 justify-end">
+          <div
+            class="
+              text-[0.625rem] text-justify
+              leading-none
+              max-w-2xl
+              self-center
+            "
+          >
+            I hereby give consent for my personal data included in my
+            application to be processed for the&nbsp;purposes
+            of&nbsp;the&nbsp;recruitment process under the&nbsp;Regulation (EU)
+            2016/679 of&nbsp;the&nbsp;European Parliament
+            and&nbsp;of&nbsp;the&nbsp;Council of&nbsp;27 April 2016 on
+            the&nbsp;protection of&nbsp;natural persons with regard to
+            the&nbsp;processing of&nbsp;personal data and&nbsp;on the&nbsp;free
+            movement of&nbsp;such data, and&nbsp;repealing Directive 95/46/EC
+            (General Data Protection Regulation).
           </div>
         </div>
       </div>

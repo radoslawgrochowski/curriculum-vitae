@@ -4,7 +4,7 @@
 
 @layer components {
   .header-section {
-    @apply uppercase font-medium text-lg tracking-wide mb-2 rounded-sm first-letter:text-xl border-stone-900 border-b leading-normal;
+    @apply uppercase font-medium text-lg tracking-wide mb-3 rounded-sm first-letter:text-xl border-stone-900 border-b leading-normal;
   }
 
   .chip {

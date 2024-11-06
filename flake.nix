@@ -11,6 +11,8 @@
     {
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = true;
+          PUPPETEER_EXECUTABLE_PATH = "${pkgs.chromium.outPath}/bin/chromium";
           packages = with pkgs; [ node2nix nodejs nodePackages.pnpm ];
         };
       });

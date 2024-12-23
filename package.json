@@ -22,7 +22,7 @@
     "@tailwindcss/typography": "0.5.15",
     "file-url": "4.0.0",
     "nodemon": "2.0.15",
-    "npm-run-all2": "5.0.0",
+    "npm-run-all2": "7.0.2",
     "prettier": "3.3.3",
     "puppeteer": "23.7.0",
     "serve": "13.0.2",

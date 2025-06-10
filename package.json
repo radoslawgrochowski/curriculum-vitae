@@ -21,7 +21,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "0.5.16",
     "file-url": "4.0.0",
-    "nodemon": "2.0.15",
+    "nodemon": "2.0.22",
     "npm-run-all2": "5.0.0",
     "prettier": "3.5.3",
     "puppeteer": "23.7.0",
